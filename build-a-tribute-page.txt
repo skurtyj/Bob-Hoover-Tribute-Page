@@ -1,0 +1,100 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Bob Hoover</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-width=1.0" />
+ </head>
+  <body id="body">
+    <main id="main">
+      <div id="title-div">
+        <h1 id="title">Robert Anderson "Bob" Hoover</h1><hr>
+        <p><i>"The greatest stick-and-rudder man who ever lived"</i></p>
+        <p>~ General James Harold "Jimmy" Doolittle</P>
+      </div>
+      <figure id="img-div">
+        <img id="image" src="https://www.aopa.org/-/media/Images/AOPA-Main/News-and-Media/2016/October/1026_Hoover3.jpg" alt="Bob Hoover with his famous Shrike" />
+        <figcaption id="img-caption"><i>Bob Hoover with his famous Shrike</i></figcaption>
+      </figure>
+    <figure id="div-background">
+      <p> A Summary of Bob Hoover's Life and Accomplishments</p><hr>
+      <div id="tribute-info">
+        <ul>
+          <li>Born January 24, 1922</li>
+          <li>Learned to fly out of Nashville's Berry Field while bagging groceries to pay for flight training </li>
+          <li>Enlisted in the National Guard and went to pilot training in the Army</li>
+          <li><b>Flew Spitfires in WWII and was shot down in Germany where he escaped POW camp by stealing a German FW 190 that he flew to safety in the Netherlands! </b></li>
+          <li>After the war, he was a test pilot, flight instructor in Korea, and a record-setting airshow performer</li>
+          <li>Best known for his civil air show career, which started when he was hired to demonstrate the capabilities of Aero Commander's Shrike Commander</li>
+          <li>Hoover added to his airshow act by pouring a cup of tea from a Thermos bottle, while performing a slow barrel roll, a 1G maneuver <a id="tribute-link" target="_blank" href="https://www.youtube.com/watch?v=W2-9BL7sllk"> which can be seen here</a> (HIGHLY RECOMMENDED)</li>
+          <li>He received the Distinguished Flying Cross and Wright Brothers Memorial Trophy, and was inducted into the National Aviation Hall of Fame in 1988 and Aerospace Walk of Honor in 1992, along with several other military and civilian awards and accolades</li>
+          <li>Hoover lived a long fulfilled life leaving a legacy for aviators for generations to come. He died October 25th, 2016 at age 94</li>
+      </div>
+     </figure>
+
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#title-div{
+  font-family: Arial;
+  text-align: center;
+  height: auto;
+  max-width: 100%
+}
+#title-div h1{
+  padding-bottom: 10px; 
+  padding-top: 20px;
+  font-size: 40
+}
+#title-div p{
+  padding-bottom: 0px; 
+  padding-top: 0;
+  font-size: 25px;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  box-shadow: 0px 10px 70px 30px lightblue; 
+}
+body{
+  max-width: 100%;
+  height: auto;
+  background-image: url(https://www.rmets.org/sites/default/files/2021-05/Photo%20%C2%A9%20Zigmunds%20Orlovskis.jpeg);
+  background-size: cover;
+}
+figcaption{
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+#div-background{
+  background-color: rgba(240, 240, 240, .5);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  justify-content: center;
+  padding: 20px
+}
+li{
+margin: 10px;
+font-family: Arial;
+}
+figure p{
+  text-align: center;
+  font-size: 20;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+** end of undefined **
+
